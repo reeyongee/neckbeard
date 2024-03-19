@@ -61,7 +61,7 @@ Neckbeard provides concise summaries of Reddit discussions relevant to your quer
 1. **Run the script:**
 
    ```bash
-   python your_program.py
+   python neckbeard.py
    ```
 
 2. **Enter your search query at the prompt.**
