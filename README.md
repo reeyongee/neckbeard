@@ -15,7 +15,7 @@ A future version (Fingers crossed. Hopefully, I figure it out.) could implement 
 - **Python 3.x:** Ensure you have a compatible Python version installed.
 - **API Keys:**
   - Google Custom Search API Key: Required for search functionality. Obtain one from the [Google API Console](https://console.cloud.google.com/apis/dashboard).
-  - Voyage API Key: Required if using VoyageEmbeddings. Obtain one by signing up on Voyage's website (URL removed).
+  - Voyage API Key: Required if using VoyageEmbeddings. Obtain one by signing up on Voyage's website.
 - **Ollama:**
   - Install Ollama: Refer to the Ollama documentation for setup instructions.
   - Download a compatible 7+ billion parameter model (e.g., Mistral, Dolphin).
