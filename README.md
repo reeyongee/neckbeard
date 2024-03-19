@@ -1,6 +1,6 @@
 # Neckbeard
 
-Neckbeard provides concise summaries of Reddit discussions relevant to your queries. It leverages Google Search for targeted content extraction and employs a locally-hosted language model for intelligent analysis. \*\*This was mostly done as an excercise to figure out how a RAG implementation would work with data pulled from the internet on the fly. Admittedly, the large amount of time taken for the data to be converted to embeddings and then for the embeddings to be pulled as context for the model to use, makes this implementation, as it exists, quite unusable.\*\*
+Neckbeard provides concise summaries of Reddit discussions relevant to your queries. It leverages Google Search for targeted content extraction and employs a locally-hosted language model for intelligent analysis. **This was mostly done as an excercise to figure out how a RAG implementation would work with data pulled from the internet on the fly. Admittedly, the large amount of time taken for the data to be converted to embeddings and then for the embeddings to be pulled as context for the model to use, makes this implementation, as it exists, quite unusable.**
 
 A future version (Fingers crossed. Hopefully, I figure it out.) could implement 2 LLM's working side by side, one for the purposes of creating a knowledge base and another to perform inference, both working on a thought based guidance system where a "thinking" process allows Neckbeard to choose between actions like searching, responding, or extracting information.
 
